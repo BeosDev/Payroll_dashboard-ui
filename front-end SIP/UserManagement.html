@@ -39,7 +39,8 @@
                     </a>
                 </div>
                 <ul class="nav">
-                    <li class="nav-item">
+
+                    <li class="nav-item active">
                         <a class="nav-link" href="./Earning.html">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>Total earning</p>
@@ -51,10 +52,18 @@
                             <p>Vacation day</p>
                         </a>
                     </li>
+                    
                     <li>
-                        <a class="nav-link" href="./AveBenefits.html">
+                        <a class="nav-link" href="AverageBenefitsPaid.html">
                             <i class="nc-icon nc-notes"></i>
                             <p>Average benefits paid</p>
+                    
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="UserManagement.html">
+                            <i class="nc-icon nc-circle-09"></i>
+                            <p>User Management</p>
                         </a>
                     </li>
                     
@@ -118,7 +127,9 @@
                     <div class="content">
                 
                     <div class="container">
-                    <button type="button" class="btn btn-outline-secondary"><p style="font-size:30px;">ADD new-Account</p></button>
+                    <a href="AddUser.html"> <button type="button" class="btn btn-outline-secondary"><p style="font-size:25px;margin:auto;">
+                    	<i class="far fa-address-book"></i> ADD new-Account</p></button></a>
+                    
 
                     <div class="unit w-2-3"><div class="hero-callout">
             <div id="example_wrapper" class="dataTables_wrapper"><div class="dataTables_length" id="example_length"></div><div id="example_filter" class=           "dataTables_filter"></div>
@@ -126,44 +137,87 @@
             <table id="example" class="display nowrap dataTable dtr-inline collapsed" style="width: 100%;" role="grid" aria-describedby="example_info">
             <thead><tr role="row">
             <th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 126px;" aria-sort="ascending" aria-label="ID Employee: activate to sort column descending">ID</th>
-            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 201px;" aria-label="Last Name: activate to sort column ascending">User Name</th
+            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 201px;" aria-label="Last Name: activate to sort column ascending">User Name</th>
+            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 201px;" aria-label="Last Name: activate to sort column ascending">Password</th
             ><th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 94px;" aria-label="First Name: activate to sort column ascending">Type</th>
             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 84px;" aria-label="Sex: activate to sort column ascending">Sex</th>
             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 84px;" aria-label="Department: activate to sort column ascending">Department</th>
             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 84px;" aria-label="Hire day: activate to sort column ascending">Email</th>
             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 84px;" aria-label="Phone number: activate to sort column ascending">Phone number</th>
+            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 84px;" aria-label="Phone number: activate to sort column ascending">Edit</th>
+            <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 84px;" aria-label="Phone number: activate to sort column ascending">Delete</th>
             </tr>
         </thead>
         <tbody>
         <tr role="row" class="odd">
-        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td><a href="EditUser.html"><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-edit"></i></button> </a>
+        </td>
+        <td><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-trash-alt"></i></button> </td>
         </tr>
+
         <tr role="row" class="odd">
-        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td><a href="EditUser.html"><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-edit"></i></button> </a>
+        </td>
+        <td><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-trash-alt"></i></button> </td>
+        
         </tr><tr role="row" class="odd">
-        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td><a href="EditUser.html"><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-edit"></i></button> </a>
+        </td>
+        <td><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-trash-alt"></i></button> </td>
         </tr>
+        
         <tr role="row" class="odd">
-        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td><a href="EditUser.html"><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-edit"></i></button> </a>
+        </td>
+        <td><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-trash-alt"></i></button> </td>
         </tr>
+        
         <tr role="row" class="odd">
-        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td><a href="EditUser.html"><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-edit"></i></button> </a>
+        </td>
+        <td><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-trash-alt"></i></button> </td>
         </tr>
+        
         <tr role="row" class="odd">
-        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td><a href="EditUser.html"><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-edit"></i></button> </a>
+        </td>
+        <td><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-trash-alt"></i></button> </td>
         </tr>
+        
         <tr role="row" class="odd">
-        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td><a href="EditUser.html"><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-edit"></i></button> </a>
+        </td>
+        <td><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-trash-alt"></i></button> </td>
         </tr>
+        
         <tr role="row" class="odd">
-        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td><a href="EditUser.html"><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-edit"></i></button> </a>
+        </td>
+        <td><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-trash-alt"></i></button> </td>
         </tr>
+        
         <tr role="row" class="odd">
-        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td>
+     	<td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td><a href="EditUser.html"><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-edit"></i></button> </a>
+        </td>
+        <td><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-trash-alt"></i></button> </td>
         </tr>
+        
         <tr role="row" class="odd">
-        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td><a href="EditUser.html"><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-edit"></i></button> </a>
+        </td>
+        <td><button  type="button" style="margin:auto ;display: block;"><i class="fas fa-trash-alt"></i></button> </td>
         </tr>
+
         </tbody></table>
         <center>
         <div class="dataTables_paginate paging_simple_numbers" id="example_paginate"><a class="paginate_button previous disabled" aria-controls="example" data-dt-idx="0" tabindex="0" id="example_previous">Previous</a>
@@ -190,7 +244,7 @@
                             <script>
                                 document.write(new Date().getFullYear())
                             </script>
-                            FROM VimStory With LOVE
+                            FROM DNVL2 With LOVE
                         </p>
                     </nav>
                 </div>
