@@ -240,22 +240,22 @@
 
             <table id="fresh-table" class="table">
                 <thead>
-                    <th data-field="employee-id" data-sortable="true">Employee ID</th>
-                    <th data-field="employee-number" data-sortable="true">Employee Number</th>
-                    <th data-field="last-name" data-sortable="true">Last Name</th>
-                    <th data-field="first-name" data-sortable="true">First Name</th>
+                    <th data-field="Employee_ID" data-sortable="true">ID</th>
+                    <th data-field="Employee_Number" data-sortable="true">Employee No.</th>
+                    <th data-field="Last-Name" data-sortable="true">Last Name</th>
+                    <th data-field="First-Name" data-sortable="true">First Name</th>
                     <th data-field="SSN" data-sortable="true">SSN</th>
-                    <th data-field="payrate" data-sortable="true">PayRate</th>
-                    <th data-field="payrate-id" data-sortable="true">PayRate ID</th>
-                    <th data-field="vacation-date" data-sortable="true">Vacation Date</th>
-                    <th data-field="paid-to-date" data-sortable="true">Paid To Date</th>
-                    <th data-field="pate-last-year" data-sortable="true">Paid Last Year</th>
-                    <th data-field="employment-status" data-sortable="true">Employment Status</th>
-                    <th data-field="hire-date" data-sortable="true">Hire Date</th>
-                    <th data-field="workers-comp-code" data-sortable="true">Workers Comp Code</th>
-                    <th data-field="termination-date" data-sortable="true">Termination Date</th>
-                    <th data-field="Rehire-date" data-sortable="true">Rehire Date</th>
-                    <th data-field="last-review-date" data-sortable="true">Last Review Date</th>
+                    <th data-field="Pay_Rate" data-sortable="true">PayRate</th>
+                    <th data-field="Payrate_ID" data-sortable="true">PayRate ID</th>
+                    <th data-field="Vacation_Date" data-sortable="true">Vacation Date</th>
+                    <th data-field="Paid_To_Date" data-sortable="true">Paid To Date</th>
+                    <th data-field="Paid_Last_Year" data-sortable="true">Paid Last Year</th>
+                    <th data-field="Employment_Status" data-sortable="true">Employment Status</th>
+                    <th data-field="Hire_Date" data-sortable="true">Hire Date</th>
+                    <th data-field="Workers_Comp_Code" data-sortable="true">Workers Comp Code</th>
+                    <th data-field="Termination_Date" data-sortable="true">Termination Date</th>
+                    <th data-field="Rehire_Date" data-sortable="true">Rehire Date</th>
+                    <th data-field="Last_Review_Date" data-sortable="true">Last Review Date</th>
                     <th data-field="actions" data-formatter="operateFormatter" data-events="operateEvents">Actions</th>
                 </thead>
                 <tbody>
@@ -328,11 +328,11 @@
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <div class="row" style ="padding-left: 10%">                         
+                    <div class="row" style ="padding-left: 2%">                         
                         <div>
                             <form action="" class="form-inline " style="background-color: white;">                                               
-
-
+                            
+                            <div class = "col-md-6">
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
                                         Employee ID:
@@ -390,7 +390,8 @@
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
-
+                            </div>
+                            <div class= "col-md-6">
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
                                         Paid To Date:
@@ -445,7 +446,7 @@
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>  
-                                                                    
+                            </div>                                 
                             </form>
                         </div>
 
@@ -464,7 +465,7 @@
 
     <!-- Modal Edit--> <!-- dien data vao cac text hộ với-->
     <div class="modal fade" id="EditModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog" style ="width: 1250px">
             <div class="modal-content">
 
                 <!-- Modal Header -->
@@ -485,11 +486,11 @@
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <div class="row" style ="padding-left: 10%">                         
+                    <div class="row" style ="padding-left: 2%">                         
                         <div>
                             <form action="" class="form-inline " style="background-color: white;">                                               
 
-
+                            <div class = "col-md-6">
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
                                         Employee ID:
@@ -547,7 +548,8 @@
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
-
+                            </div>
+                            <div class= "col-md-6">
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
                                         Paid To Date:
@@ -602,7 +604,7 @@
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>  
-                                                                    
+                            </div>                                           
                             </form>
                         </div>
                         
@@ -621,7 +623,7 @@
     
     <!-- Modal Detail--> <!-- cung dien data vao text luon disable ca roi-->
     <div class="modal fade" id="DetailModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog" style ="width: 1250px">
             <div class="modal-content">
 
                 <!-- Modal Header -->
@@ -642,11 +644,11 @@
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <div class="row" style ="padding-left: 10%">                         
+                    <div class="row" style ="padding-left: 2%">                         
                         <div>
                             <form action="" class="form-inline " style="background-color: white;">                                               
 
-
+                            <div class = "col-md-6">
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
                                         Employee ID:
@@ -704,7 +706,8 @@
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
-
+                            </div>
+                            <div class ="col-md-6">
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
                                         Paid To Date:
@@ -759,7 +762,7 @@
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>  
-                                                                    
+                            </div>                                       
                             </form> 
                         </div>
 
