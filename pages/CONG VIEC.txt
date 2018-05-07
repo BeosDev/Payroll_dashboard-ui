@@ -1,6 +1,9 @@
 ﻿1. Add cái "table cua dattt" vào cái "template de add table"
 2. Lên drive của SIP mở database.xlsx trong folder database ra 
-3. Làm trang nhập và sửa cho personal, employment ( chú ý cái này trong dtb vì nó là Employment U Employee), job history, benefit plan, pay rate theo
+
+3. Làm trang nhập và sửa cho personal, employment ( chú ý cái này trong dtb vì nó là Employment U Employee),
+ job history, benefit plan, pay rate theo
 "template de add table" và database
+
 4. làm xong nhớ tạo branch riêng trên git hub rồi up lên và thông báo cho mn nhé ;)
 CHÚC Ngoen may mắn 

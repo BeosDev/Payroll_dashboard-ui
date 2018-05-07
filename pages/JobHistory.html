@@ -9,13 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>DashBoard (RAW)</title>
-
+    <title>DashBoard (JobHistory)</title>
     <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
     <link href="../assets/css/bootstrap.css" rel="stylesheet" />
     <link href="../assets/css/fresh-bootstrap-table.css" rel="stylesheet" />
 <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
-
 
 
 
@@ -24,7 +22,6 @@
 
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
@@ -156,12 +153,9 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-
-                            <a href="#">
-                                <i class="fa fa-dashboard fa-fw">
-                                    
-                                </i> Show information
-
+                            <a href="4#">
+                                
+                                    <i class="fa fa-flag fa-fw"></i> Show information
                                 <span class="fa arrow"></span>
                             </a>
                             <ul class="nav nav-second-level">
@@ -204,21 +198,19 @@
                             </a>
                             <ul class="nav nav-second-level">
                                 <li>
-
-                                    <a href="#" class="active">Personal</a>
+                                    <a href="Personal.html">Personal</a>
                                 </li>
                                 <li>
-                                    <a href="#">Employment</a>
+                                    <a href="Employment.html">Employment</a>
                                 </li>
                                 <li>
-                                    <a href="#">Job history</a>
+                                    <a href="JobHistory.html" class="active">Job history</a>
                                 </li>
                                 <li>
-                                    <a href="#">Benefit plan</a>
+                                    <a href="BenefitPlan.html">Benefit plan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Pay rate</a>
-
+                                    <a href="PayRate.html">Pay rate</a>
                                 </li>
                             </ul>
                         </li>
@@ -232,11 +224,8 @@
 
         <div id="page-wrapper">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Title vao day</h1>
-                </div>
+               
                 <!-- /.col-lg-12 -->
-
                 <div class="wrapper">
         <div class="fresh-table toolbar-color-azure full-screen-table">
     <!--    Available colors for the full background: full-color-blue, full-color-azure, full-color-green, full-color-red, full-color-orange                  
@@ -250,43 +239,58 @@
 
             <table id="fresh-table" class="table">
                 <thead>
-                    <th data-field="id" data-sortable="true">ID</th>
-                    <th data-field="first-name" data-sortable="true">First name</th>
-                    <th data-field="last-name" data-sortable="true">Last name</th>
-                    <th data-field="address" data-sortable="true">Address</th>
-                    <th data-field="city" data-sortable="true">City</th>
-                    <th data-field="email" data-sortable="true">Email</th>
-                    <th data-field="phone" data-sortable="true">Phone</th>
-                    <th data-field="gender" data-sortable="true">Gender</th>
-                    <th data-field="benefit" data-sortable="true">Benefit</th>
-                    <th data-field="ethnicity" data-sortable="true">Ethnicity</th>
+                    <th data-field="ID" data-sortable="true">ID</th>
+                    <th data-field="Employee-ID" data-sortable="true">Employee ID</th>
+                    <th data-field="Department" data-sortable="true">Department</th>
+                    <th data-field="Division" data-sortable="true">Division</th>
+                    <th data-field="Start_Date" data-sortable="true">Start Date</th>
+                    <th data-field="End_Date" data-sortable="true">End Date</th>
+                    <th data-field="Job_Title" data-sortable="true">Job Title</th>
+                    <th data-field="Supervisor" data-sortable="true">Supervisor</th>
+                    <th data-field="Job_Category" data-sortable="true">Job Category</th>
+                    <th data-field="Location" data-sortable="true">Location</th>
+                    <th data-field="Department_Code" data-sortable="true">Department Code</th>
+                    <th data-field="Salary_Type" data-sortable="true">salary Type</th>
+                    <th data-field="Pay_Period" data-sortable="true">Pay Period</th>
+                    <th data-field="Hours_Per_Week" data-sortable="true">Hours Per Week</th>
+                    <th data-field="Hazadous_Training" data-sortable="true">Hazadous Training</th>
                     <th data-field="actions" data-formatter="operateFormatter" data-events="operateEvents">Actions</th>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Dakota</td>
-                        <td>Rice</td>
-                        <td>R74 Avenue Road</td>
-                        <td>DC</td>
-                        <td>moeflying@gmail.com</td>
+                        <td>1</td>
+                        <td>Employee</td>
+                        <td>a</td>
+                        <td>02/02/2018</td>
+                        <td>03/03/2018</td>
                         <td>125684518</td>
-                        <td>Male</td>
+                        <td>vim</td>
                         <td>Unknow</td>
                         <td>Unknow</td>
+                        <td>0912</td>
+                        <td>ATM</td>
+                        <td>unknow</td>
+                        <td>8</td>
+                        <td>University</td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Ngoen</td>
-                        <td>Nguyen</td>
-                        <td>Ha Huy Tap</td>
-                        <td>Da Nang</td>
-                        <td>vimoccho@gmail.com</td>
-                        <td>125684518</td>
-                        <td>Female</td>
-                        <td>Unknow</td>
-                        <td>Unknow</td>
+                        <td>2</td>
+                        <td>manager</td>
+                        <td>b</td>
+                        <td>02/02/2018</td>
+                        <td>03/05/2018</td>
+                        <td>12568451228</td>
+                        <td>Nam</td>
+                        <td>Unknow1</td>
+                        <td>Unknow1</td>
+                        <td>2404</td>
+                        <td>ATMaaa</td>
+                        <td>unknow1</td>
+                        <td>82</td>
+                        <td>University1</td>
                         <td></td>
                     </tr>
 
@@ -299,7 +303,7 @@
 
     <!-- Modal Add new-->
     <div class="modal fade" id="AddModal">
-        <div class="modal-dialog " style ="width: 1250px">
+        <div class="modal-dialog ">
             <div class="modal-content">
 
                 <!-- Modal Header -->
@@ -308,7 +312,7 @@
                         <div class =" row">
 
                             <div class = "col-md-10">
-                                <h4 class="modal-title" style="color: darkblue;">Add new person</h4>
+                                <h4 class="modal-title" style="color: darkblue;">Add new Job History</h4>
                             </div>
                             <div class = "col-md-2">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -327,122 +331,110 @@
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        First name:
+                                        ID:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div> 
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Last name:
+                                        Employee ID:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Middle initial:
+                                         Department:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Address 1:
+                                        Divison:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Address 2:
+                                        Start Date:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        City:
+                                        End Date:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        State:
+                                        Job Title:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Zip:
+                                        Supervisor:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Email:
+                                        Job Category:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Phone number:
+                                        Location:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Social security number:
+                                        Department Code:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Drivers license
+                                        Salary Type
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Marital status:
+                                        Pay Period:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Gender:
+                                        Hours-Per-Week:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Shareholder status:
+                                        Hazardous Training:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
-                                <div style="padding-bottom: 10px">                                           
-                                    <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Benefit plan:
-                                    </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
-                                </div>   
-
-                                <div style="padding-bottom: 10px">                                           
-                                    <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Ethnicity:
-                                    </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
-                                </div>                                           
+                                                                    
                             </form>
                         </div>
 
@@ -470,7 +462,7 @@
                         <div class =" row">
                             
                             <div class = "col-md-10">
-                                <h4 class="modal-title" style="color: darkblue;">Edit person</h4>
+                                <h4 class="modal-title" style="color: darkblue;">Edit Job History</h4>
                             </div>
                             <div class = "col-md-2">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -484,126 +476,115 @@
                 <div class="modal-body">
                     <div class="row" style ="padding-left: 10%">                         
                         <div>
-                            <form action="" class="form-inline " style="background-color: white;">                                                                                          
+                            <form action="" class="form-inline " style="background-color: white;">                                               
+
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        First name:
+                                        ID:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div> 
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Last name:
+                                        Employee ID:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Middle initial:
+                                         Department:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Address 1:
+                                        Divison:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Address 2:
+                                        Start Date:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        City:
+                                        End Date:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        State:
+                                        Job Title:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Zip:
+                                        Supervisor:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Email:
+                                        Job Category:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Phone number:
+                                        Location:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Social security number:
+                                        Department Code:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Drivers license
+                                        Salary Type
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Marital status:
+                                        Pay Period:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Gender:
+                                        Hours-Per-Week:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Shareholder status:
+                                        Hazardous Training:
                                     </label>                                              
                                     <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
-                                <div style="padding-bottom: 10px">                                           
-                                    <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Benefit plan:
-                                    </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
-                                </div>   
-
-                                <div style="padding-bottom: 10px">                                           
-                                    <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Ethnicity:
-                                    </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
-                                </div>                                           
+                                                                    
                             </form>
                         </div>
                         
@@ -647,131 +628,113 @@
                         <div>
                             <form action="" class="form-inline " style="background-color: white;">                                               
 
-                                <div style="padding-bottom: 10px">                                           
-                                    <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Employee ID:
-                                    </label>                                          
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                                    
-                                </div>
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        First name:
+                                        ID:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div> 
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Last name:
+                                        Employee ID:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Middle initial:
+                                         Department:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Address 1:
+                                        Divison:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Address 2:
+                                        Start Date:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        City:
+                                        End Date:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        State:
+                                        Job Title:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Zip:
+                                        Supervisor:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Email:
+                                        Job Category:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Phone number:
+                                        Location:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Social security number:
+                                        Department Code:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Drivers license
+                                        Salary Type
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Marital status:
+                                        Pay Period:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Gender:
+                                        Hours-Per-Week:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
                                 <div style="padding-bottom: 10px">                                           
                                     <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Shareholder status:
+                                        Hazardous Training:
                                     </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
+                                    <input type="text" name="" id="" class="form-control" size="35">                                                                                 
                                 </div>   
 
-                                <div style="padding-bottom: 10px">                                           
-                                    <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Benefit plan:
-                                    </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
-                                </div>   
-
-                                <div style="padding-bottom: 10px">                                           
-                                    <label for="" class = "col-md-4" style="padding-top: 10px">
-                                        Ethnicity:
-                                    </label>                                              
-                                    <input type="text" name="" id="" class="form-control" size="35" disabled="">                                                                                 
-                                </div>                                           
+                                                                    
                             </form>
                         </div>
 
@@ -781,13 +744,12 @@
                 <!-- Modal footer -->
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
-                    <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+                   
                 </div>   
             </div>
         </div>
     </div>         
     <!--/////////////////////////////////////////////////////////////////////////////// -->     
-
             </div>
             <!-- /.row -->
             
@@ -803,9 +765,7 @@
     </div>
     <!-- /#wrapper -->
 
-
   <script src="../vendor/jquery/jquery.min.js"></script>
-
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -819,7 +779,6 @@
     <script src="../data/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
-
     <script src="../dist/js/sb-admin-2.js"></script>  
 
 </body>

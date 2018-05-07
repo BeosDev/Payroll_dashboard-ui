@@ -251,9 +251,7 @@
 
 .fixed-table-toolbar .dropdown-menu {
   text-align: left;
-
-  max-height: unset;
-
+  max-height: 300px;
   overflow: auto;
 }
 
